@@ -3,6 +3,7 @@
 
 Este projeto visa demonstrar a implementação de um sistema de autenticação de usuários, permitindo o registro, login e comunicação com uma API de forma autenticada via Bearer token, além de demostrar a implementação da biblioteca Vuetify em conjunto com o VueJS com visual complexo e validações de dados pertinentes.
 
+
 ## Aviso importante
 
 Este repositório é somente a parte do front-end do projeto. Para funcionar do modo esperado, deve-se executar também a API que se encontra neste repositório: https://github.com/leopholdo/authentication-api
@@ -16,13 +17,15 @@ Este repositório é somente a parte do front-end do projeto. Para funcionar do 
 - **Autenticação de usuários**
 - **Comunicação com API** de forma anônima e autenticada via Bearer token
 - **Implementação de uma API segura** por CORS, autenticação e autorização com JWT e Bearer
+
+
 ## Stack utilizada
 
 **Front-end:** VueJS e Vuetify
 
-**Back-end:** ASP.NET Core 8
+**Back-end:** ASP.NET Core 8, Swagger UI, Entity Framework Core, BCrypt, e Authentication JwtBearer
 
-**Banco de dados:** PostgreSQL (opcional)
+**Banco de dados:** PostgreSQL
 
 
 ## Como usar
@@ -42,8 +45,8 @@ npm install
  yarn install
 ```
 
-
 3. **Execução do Projeto:**
+- Execute o projeto com o comando:
 **NPM**
 ```
 npm run dev
@@ -53,6 +56,9 @@ npm run dev
 ```
  yarn dev
 ```
+- Abra o navegador e acesse a aplicação pelo endereço http://localhost:5101
+
+
 ## Contribuindo
 
 Contribuições são sempre bem-vindas!
